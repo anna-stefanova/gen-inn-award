@@ -1,0 +1,19 @@
+@import "fonts";
+@import "vars";
+@import "mixins";
+@import "global";
+@import "buttons";
+@import "simple-keyboard";
+
+
+/* Blocks */
+
+@import "blocks/header";
+@import "blocks/footer";
+@import "blocks/slider";
+@import "blocks/main-page";
+@import "blocks/qr";
+@import "blocks/search";
+@import "blocks/greeting";
+@import "blocks/guests";
+@import "blocks/timing";

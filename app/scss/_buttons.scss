@@ -1,0 +1,20 @@
+a.btn {
+  display: block;
+  border-radius: 7px;
+  padding: 28px;
+  font-family: 'TTTravels-Light', sans-serif;
+  font-size: 34px;
+  line-height: 41px;
+  color: #FFFFFF;
+  text-align: center;
+
+  &.btn-blue {
+    background-color: $blue;
+  }
+
+  &.btn-inherit {
+    border: 3px solid $blue;
+  }
+
+
+}

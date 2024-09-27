@@ -1,0 +1,76 @@
+.greeting-page {
+  padding: 43px 86px;
+  &__title {
+    font-family: 'TTTravels-DemiBold', sans-serif;
+    font-size: 64px;
+    line-height: 77px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    p {
+      font-family: 'TTTravels-Regular', sans-serif;
+      margin-bottom: 50px;
+    }
+  }
+  &__inner {
+    font-family: 'TTTravels-Regular', sans-serif;
+    font-size: 55px;
+    line-height: 66px;
+    color: $text;
+  }
+  &__item--table {
+    margin-bottom: 102px;
+    span {
+      display: inline-block;
+      border: 2.24934px solid $blue;
+      border-radius: 4.27951px;
+      padding: 22px 42px 22px 43px;
+      margin-left: 53px;
+    }
+  }
+  &__item--greeting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .btn.btn-blue {
+    display: inline-block;
+    padding: 19px 50px;
+    font-size: 23.7169px;
+    line-height: 28px;
+    min-width: 354px;
+  }
+}
+.greeting-phrase {
+  p {
+    margin-bottom: 42px;
+  }
+}
+.please-photo {
+  width: 161px;
+  height: 155px;
+  border-radius: 5px;
+  background: #8A8A8A;
+  margin-right: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $text;
+  font-size: 15px;
+  line-height: 1.2;
+  text-align: center;
+  font-family: 'TTTravels-SemiBold', sans-serif;
+  &__img {
+    width: 71px;
+    height: 55px;
+    margin-bottom: 17px;
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  p {
+
+
+  }
+}

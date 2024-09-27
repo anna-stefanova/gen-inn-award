@@ -1,0 +1,37 @@
+<!--=include head.html -->
+<div class="content">
+    <!--=include header.html -->
+    <main class="main qr-page">
+        <h2 class="page__title qr-page__title">Отсканируйте QR - код</h2>
+        <div class="qr-page__camera">
+
+            <div class="qr-page__camera--image">
+                <video id="video" width="684" height="681" style="border: 1px solid gray"></video>
+                <!--<div class="qr-page__camera&#45;&#45;icon">
+                    <svg viewBox="0 0 141 89" fill="#CFCFCF" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.35798 0.847656C4.4481 0.847656 0.590332 4.88077 0.590332 9.6153V79.7565C0.590332 84.6664 4.62345 88.5241 9.35798 88.5241H97.0344C101.944 88.5241 105.802 84.6664 105.802 79.7565V53.4535L123.337 70.9888H140.873V18.383H123.337L105.802 35.9182V9.6153C105.802 4.70542 101.944 0.847656 97.0344 0.847656H9.35798Z"/>
+                    </svg>
+                </div>-->
+            </div>
+        </div>
+        <div>
+            <a class="button" id="startButton">Start</a>
+            <a class="button" id="resetButton">Reset</a>
+        </div>
+
+        <div id="sourceSelectPanel" style="display:none">
+            <label for="sourceSelect">Change video source:</label>
+            <select id="sourceSelect" style="max-width:400px">
+            </select>
+        </div>
+
+        <label>Result:</label>
+        <pre><code id="result"></code></pre>
+    </main>
+</div>
+<!--=include footer-block.html -->
+</div>
+<script src="js/zxing.js"></script>
+<script src="js/qr-scripts.js"></script>
+</body>
+</html>

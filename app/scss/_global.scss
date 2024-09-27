@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+*:focus {
+  outline: 1px dotted $text;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: $text;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  font-family: 'TTTravels-Regular', sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  color: $text;
+  background-color: $primary;
+  width: 100vw;
+  max-width: 1080px;
+  min-height: 1920px;
+  height: 100vh;
+  overflow: hidden;
+
+  @include breakpoint($large-bp) {
+    min-height: unset;
+    overflow: unset;
+    height: 1920px;
+  }
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: $primary url("../images/bg.png") bottom no-repeat;
+  object-fit: contain;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+  z-index: 10;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+h2.page__title {
+  font-family: 'TTTravels-DemiBold', sans-serif;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  text-transform: uppercase;
+  &.page__title--search {
+    max-width: 485px;
+  }
+}

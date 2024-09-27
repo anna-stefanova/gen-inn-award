@@ -1,0 +1,51 @@
+.timing-page {
+  padding: 0 82px 0 127px;
+  &__title {
+    margin-bottom: 36px;
+  }
+  &__info {
+    padding: 33px 60px;
+    margin-bottom: 27px;
+    width: 100%;
+    background: rgba(241, 241, 241, 0.12);
+    border: 1.10455px solid #BCBCBC;
+    backdrop-filter: blur(22.5px);
+    border-radius: 7.73182px;
+    font-family: 'TTTravels-ExtraLight', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  &__table {
+    padding: 20px 70px 48px 60px;
+    background: rgba(241, 241, 241, 0.12);
+    border: 1.10455px solid #BCBCBC;
+    backdrop-filter: blur(22.5px);
+    border-radius: 7.73182px;
+    table {
+      table-layout: fixed;
+    }
+    thead th {
+      padding: 27px 0;
+      text-align: center;
+      font-family: 'TTTravels-Bold', sans-serif;
+      font-size: 20px;
+      line-height: 24px;
+      color: $blue;
+    }
+    tbody td {
+      padding: 4px 0;
+    }
+    tbody th {
+      width: 24%;
+      font-family: 'TTTravels-DemiBold', sans-serif;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: -0.005em;
+    }
+    tbody td {
+      font-family: 'TTTravels-ExtraLight', sans-serif;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+}

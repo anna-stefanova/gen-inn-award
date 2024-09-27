@@ -1,0 +1,40 @@
+.search-page {
+  padding: 158px 0;
+  &__title {
+    margin-bottom: 57px;
+  }
+  &__input {
+    min-width: 778px;
+    background: rgba(81, 79, 82, 0.79);
+    border: 3px solid rgba(255, 255, 255, 0.53);
+    border-radius: 7px;
+    padding: 20px 32px;
+    font-family: 'TTTravels-DemiBold', sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  &__result {
+    padding: 0 21px;
+    background: rgba(81, 79, 82, 0.79);
+    border-radius: 0 0 7px 7px;
+    margin-top: -3px;
+  }
+  &__result--item {
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      padding: 24px 15px;
+      font-family: 'TTTravels-Regular', sans-serif;
+      font-size: 32px;
+      line-height: 38px;
+      color: rgba(255, 255, 255, 0.33);
+    }
+  }
+}
+.search-page__result--item + .search-page__result--item {
+  border-top: 2px solid #959595;
+}
